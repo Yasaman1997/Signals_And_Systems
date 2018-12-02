@@ -1,0 +1,15 @@
+//Yasaman Mirmohammad
+//9431022
+
+x1=[0 1 0 -1 0 -1 1 1 0 0];
+x2=[0 0 -1 1 0 1 0 0 0 0 ];
+ 
+yn=conv(x1,x2);
+ 
+figure(1);
+stem(t,yn);
+grid on;
+xlabel('time');
+ylabel('Convolution');
+TITLE('Convolution');
+
